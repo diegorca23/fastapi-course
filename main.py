@@ -16,17 +16,20 @@ class Movie(BaseModel):
     rating: float
     category: str
 
-    class Config:
-        shchema_extra = {
-            "example": {
+    model_config = {
+        "json_schema_extra": {
+            "examples": [
+                {
                 "id": 1,
                 "title": "Mi pelicula",
                 "overview": "Descripción de la pelicula",
                 "year": 2022,
                 "rating": 10.0,
                 "category":"Accion"
-            }
+                }
+            ]
         }
+    }
 
 
 movies = [
