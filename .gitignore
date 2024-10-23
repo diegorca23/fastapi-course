@@ -1,0 +1,51 @@
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs (PyCharm, VSCode, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de logs
+*.log
+
+# Dependencias instaladas con pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Archivos relacionados con Docker
+*.env
+Dockerfile
+
+# Archivos relacionados con la base de datos de SQLite (si usas SQLite para desarrollo)
+*.sqlite3
+
+# Archivos de lock de dependencias
+Pipfile.lock
+poetry.lock
+
+# Archivos relacionados con pruebas
+.coverage
+pytest_cache/
+htmlcov/
+.tox/
+
+# Archivos relacionados con FastAPI
+# (si generas documentación estática o cache en el proyecto)
+docs/_build/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
